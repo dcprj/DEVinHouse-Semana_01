@@ -1,5 +1,6 @@
 body {
   background-color: yellow;
+  font-family:sans-serif;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  clear: both;
 }
 
 h1 {
@@ -21,9 +23,10 @@ h1 {
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16;
 }
+
 p {
   font-size: 14;
 }
@@ -36,6 +39,10 @@ button {
   border-radius: 1.5em;
 }
 
+button img {
+  border-radius: 1em;
+}
+
 #imagens {
   height: 100px;
   margin-top: 2em;
@@ -46,6 +53,33 @@ button {
 }
 
 #imagens div img {
-  height: 300px;
+  height: 200px;
   margin-right: 2em;
 }
+
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  float: left;
+  padding-inline-start: 1em;  
+}
+
+nav img {
+  max-height: 50px;
+  float: left;
+}
+
+nav li {
+  display: inline;     
+  padding: 0 1.5em;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+}
+
