@@ -12,11 +12,12 @@ header {
     justify-content: center;
 }
 
-header h1 {    
+header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20;
-    color: white;    
+    color: white;
     text-align: center;
+    clear: both;
 }
 
 p {
@@ -28,4 +29,18 @@ button {
     border: solid;
     border-color: black;
     margin-top: 20px;
+}
+
+#imagens {
+    height: 100px;
+    margin-top: 2em;
+}
+
+#imagens div {
+    float: left;
+}
+
+#imagens div img {
+    height: 300px;
+    margin-right: 2em;
 }
