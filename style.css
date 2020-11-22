@@ -2,10 +2,20 @@ body {
     background-color: yellow;
 }
 
-h1 {
+header {
+    background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20;
-    color: brown;
+    color: white;    
     text-align: center;
 }
 
